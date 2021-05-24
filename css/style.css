@@ -6,11 +6,11 @@ body {}
 
 .header {
     width: 100%;
-    max-width: 1180px;
+    max-width: 1212px;
     margin: 0 auto;
     padding-left: 15px;
     padding-right: 15px;
-    padding-top: 30px;
+    padding-top: 57px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -26,7 +26,7 @@ body {}
 
 .wrap {
     width: 100%;
-    max-width: 1180px;
+    max-width: 1212px;
     margin: 0 auto;
     padding-left: 15px;
     padding-right: 15px;
@@ -43,7 +43,7 @@ body {}
 }
 
 .nav>li {
-    margin-left: 15px;
+    margin-left: 37px;
 }
 
 .nav>li>a {
@@ -54,7 +54,7 @@ body {}
 .nav_btn {
     background-color: #5528FF;
     border-radius: 5px;
-    padding: 10px 15px;
+    padding: 6px 14px;
     color: #fff;
     border: none;
     font-weight: 700;
@@ -71,7 +71,7 @@ body {}
     width: 58px;
     height: 58px;
     background-image: url(../img/logo__.svg);
-    margin-right: 20px;
+    margin-right: 25px;
 }
 
 .logo_text {
@@ -84,26 +84,29 @@ body {}
     font-size: 56px;
     color: #202020;
     font-weight: 700;
+    margin-bottom: 0.4em;
 }
 
 .text-main {
     font-size: 32px;
     line height: 1.5;
     color: #4F4F4F;
+    min-width: 746px;
+    margin-bottom: 2em;
 }
 
 .button {
     background-color: #5528FF;
     border-radius: 10px;
-    padding: 10px 45px;
+    padding: 16px 59px;
     color: #fff;
     border: none;
     font-size: 24px;
 }
 
 .page {
-    padding-top: 40px;
-    padding-bottom: 40px;
+    padding-top: 85px;
+    padding-bottom: 109px;
     position: relative;
 }
 
@@ -133,18 +136,19 @@ body {}
 }
 
 .services-img {
-    flex-basis: 120px;
+    flex-basis: 160px;
     text-align: center;
 }
 
 .services-text {
-    flex-basis: calc(100% - 120px);
+    flex-basis: calc(80% - 165px);
 }
 
 .services h3 {
     font-size: 28px;
     font-weight: 400;
     color: #000000;
+    margin-bottom: 20px;
 }
 
 .services p {
@@ -156,13 +160,14 @@ body {}
     display: grid;
     grid-template: repeat(2, 1fr) / repeat(4, 25%);
     text-align: center;
-    grid-row-gap: 40px;
+    grid-row-gap: 44px;
+    padding-top: 0;
 }
 
 .team {
     display: grid;
-    grid-template: repeat(3, 1fr) / repeat(3, 33%);
-    grid-row-gap: 40px;
+    grid-template: repeat(3, 1fr) / repeat(3, 34%);
+    grid-row-gap: 51px;
 }
 
 .team-item {
@@ -176,5 +181,39 @@ body {}
 }
 
 .team-item>div {
-    flex-basis: calc(100%-120px);
+    flex-basis: calc(100%-100px);
+}
+
+.team-item h3 {
+    font-size: 28px;
+    color: #202020;
+    margin-bottom: 0;
+    margin-top: 7px;
+}
+
+.team-item p {
+    font-size: 14px;
+    color: #B2B2B2;
+}
+
+.box-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.social {
+    list-style-type: none;
+    padding-left: 0;
+    display: flex;
+}
+
+.social>li {
+    margin-left: 40px;
+}
+
+.social>li>a {
+    text-decoration: none;
+    color: #B2B2B2;
+    font-size: 24px;
 }
